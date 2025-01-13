@@ -1,0 +1,124 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="onepage.css">
+    <link rel="stylesheet" href="navbar.css">
+  
+</head>
+
+<body>
+
+    <header>
+        <div class="logo"><h1>Badureau Léo / <span>Portfolio</span></h1></div>
+        <nav aria-label="navigation principal">
+            <a href=#acceuil class="lien" tabindex="0">Acceuil</a>
+            <a href=#portfolio class="lien" tabindex="1">Portfolio</a>
+            <a href=#aboutme class="lien" tabindex="2">About Me</a>
+            <a href=#contact class="lien" tabindex="3">Contact</a>
+        </nav>
+    </header>
+        <main>
+            <section id="acceuil" class="principal">
+              <div class="text1">
+                <h2>Hello, Welcome</h2>
+                <p>
+                  Lorem ipsum dolor sit amet consectetur. Imperdiet malesuada purus facilisi tincidunt. Magna amet at commodo vulputate.
+                  Cursus commodo tortor sed tincidunt enim consectetur dolor ullamcorper. Sed diam ac nisi quis iaculis eleifend eget faucibus sit.
+                </p>
+                <a href=#portfolio tabindex="4" class="bouton">My portfolio</a>
+              </div>
+              <div class="photo">
+                <img src=https://st2.depositphotos.com/1049747/5655/i/950/depositphotos_56559615-stock-photo-young-man-making-a-funny.jpg alt="Photo de profil">
+              </div>
+            </section>
+
+
+        <div id="portfolio" class="portfolio-container">
+            <div id="portfolio" class="grid-container">
+                <div class="box">
+                    <img src="https://placehold.co/150" alt="Programation" class="box-image">
+                    <button class="box-button">Programation</button>
+                </div>
+                <div class="box">
+                    <img src="https://placehold.co/150" alt="Cinéma" class="box-image">
+                    <button class="box-button">Cinéma</button>
+                </div>
+                <div class="box"><img src="https://placehold.co/150" alt="Narration" class="box-image">
+                    <button class="box-button">Narration</button>
+                </div>
+                <div class="box">
+                    <img src="https://placehold.co/150" alt="Langues" class="box-image">
+                    <button class="box-button">Langues</button>
+                </div>
+                <div class="box">
+                    <img src="https://placehold.co/150" alt="Gestion de projet" class="box-image">
+                    <button class="box-button">Gestion de projet</button>
+                </div>
+                <div class="box">
+                    <img src="https://placehold.co/150" alt="Production graphique" class="box-image">
+                    <button class="box-button">Production graphique</button>
+                </div>
+                <div class="box">
+                    <img src="https://placehold.co/150" alt="Communication" class="box-image">
+                    <button class="box-button">Communication</button>
+                </div>
+                <div class="box">
+                    <img src="https://placehold.co/150" alt="Autres" class="box-image">
+                    <button class="box-button">Autres</button>
+                </div>
+            </div>
+        </div>
+            
+            <section id="aboutme"class="principal2">
+                <div class="text1">
+                  <h2>A propos de moi</h2>
+                  <p>
+                    Lorem ipsum dolor sit amet consectetur. Imperdiet malesuada purus facilisi tincidunt. Magna amet at commodo vulputate.
+                    Cursus commodo tortor sed tincidunt enim consectetur dolor ullamcorper. Sed diam ac nisi quis iaculis eleifend eget faucibus sit.
+                  </p>
+                </div>
+                <div class="photo">
+                  <img src=https://placehold.co/150 alt="Profile picture">
+                </div>
+              </section> 
+
+              <section id="contact" class="principal3">
+                <div class="container">
+                    <h1>Contactez moi</h1>
+                    <form action="send_email.php" method="POST">
+                        <label for="nom">Nom :</label>
+                        <input type="text" id="nom" name="nom" required>
+            
+                        <label for="prenom">Prénom :</label>
+                        <input type="text" id="prenom" name="prenom" required>
+            
+                        <label for="email">Adresse E-mail :</label>
+                        <input type="email" id="email" name="email" required>
+            
+                        <label for="message">Message :</label>
+                        <textarea id="message" name="message" rows="5" required></textarea>
+            
+                        <button type="submit">Envoyer</button>
+                    </form>
+                </div>
+            
+                <!-- Affichage du message de confirmation -->
+                <div class="message">
+                    <!-- Message de confirmation peut être ajouté ici après l'envoi du formulaire -->
+                </div>
+                
+            </section>
+            
+
+
+          </main>
+          <footer id="footer-contact">
+            <div class="footer">© 2025 Badureau Léo. Tous droits réservés.</div>
+        </footer>
+
+</body>
+</html>
