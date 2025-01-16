@@ -192,12 +192,14 @@ a:focus {
     align-items: center; /* Centre verticalement */
     justify-content: space-between; /* Ajoute de l'espace entre les éléments */
     height: 100vh; /* Remplit la hauteur de la fenêtre */
-    padding: 20px;
+    padding: 30px;
+    margin-top: 20px;
     gap: 50px; /* Espacement entre le texte et l'image */
     box-sizing: border-box;
 }
 
 .principal2 .text1 {
+    margin-top: 40px;
     max-width: 50%;
     text-align: justify;
     margin-left: 50px; /* Réduit la marge pour équilibrer */
@@ -252,6 +254,55 @@ a:focus {
     max-width: 40%;
     border-radius: 10px;
     box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2);
+}
+
+/* Section Skills */
+#skills {
+    max-width: 800px;
+    margin: 0 auto;
+    text-align: center;
+    padding: 40px 20px;
+    border-radius: 10px;
+}
+
+#skills h2 {
+    font-size: 2rem;
+    margin-bottom: 20px;
+    color: #f0c03d;
+}
+
+.skill {
+    margin-bottom: 20px;
+}
+
+.skill span {
+    font-size: 1.2rem;
+    display: block;
+    margin-bottom: 5px;
+    color: #fff;
+    text-align: left;
+}
+
+.skill-bar {
+    background-color: #e0e0e0;
+    border-radius: 25px;
+    overflow: hidden;
+    height: 20px;
+    position: relative;
+    width: 100%;
+}
+
+.progress {
+    height: 100%;
+    background: linear-gradient(to right, #f7e199, #ffd900);
+    border-radius: 25px;
+    width: 0; /* La largeur sera définie via inline-style dans HTML */
+    transition: width 0.5s ease-in-out;
+}
+
+/* Ajout d'une animation au chargement */
+.skill-bar:hover .progress {
+    background: linear-gradient(to right, #ffa600, #e0db96);
 }
 
 /* Contact Section */
