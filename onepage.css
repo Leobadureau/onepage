@@ -79,7 +79,7 @@ a:focus {
     margin-left: 100px;
 }
 
-.text1 h2 {
+.text1 h1 {
     font-family: DejaVu Sans Mono, monospace;
     color: #9F66F9;
     font-size: 2rem; 
@@ -211,7 +211,7 @@ a:focus {
     box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2);
 }
 
-.text1 h2 {
+.text1 h1 {
     color: #9F66F9;
     font-size: 2rem; 
     margin-bottom: 20px;
@@ -257,7 +257,7 @@ a:focus {
     border-radius: 10px;
 }
 
-#skills h2 {
+#skills h1 {
     font-size: 2rem;
     margin-bottom: 20px;
     color: #9F66F9;
@@ -322,7 +322,7 @@ h1 {
     font-family: 'Roboto', sans-serif;
 }
 
-h2 {
+h1 {
     color: #9F66F9;
 }
 
@@ -425,7 +425,7 @@ footer {
     }
 
     /* Ajustement de la taille de la police */
-    h1, h2 {
+    h1 {
         font-size: 1.8rem;
     }
 
@@ -447,7 +447,7 @@ footer {
         padding: 10px;
     }
 
-    .text1 p, .text1 h2, .box {
+    .text1 p, .text1 h1, .box {
         font-size: 1rem;
     }
 
