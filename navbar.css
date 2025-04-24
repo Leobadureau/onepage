@@ -13,10 +13,18 @@ header {
     padding: 10px 20px;
     background-color: #1d1d1d;
     border-bottom: 2px solid #8138f8;
+}
+
+/* Logo */
+.logo{
     font-size: 15px;
     color: whitesmoke;
 }
 
+header{
+    font-style: italic;
+    color: #ccc;
+}
 
 /* Navigation */
 nav {
