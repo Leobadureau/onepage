@@ -2,27 +2,18 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
-} 
+}
 
 /* Body Styles */
 body {
-    z-index: 10;
-    font-family: Arial, sans-serif;
-    background-color: #025373; 
+    font-family: DejaVu Sans Mono, monospace;
+    background-color: #262626; 
     margin: 0;
-    height: 100vh;
+    padding-top: 60px;
+    min-height: 100vh; /* Remplacer height par min-height pour permettre un contenu dynamique */
 }
 
 /* Header Styles */
-header {
-    display: flex;
-    justify-content: space-between; 
-    align-items: center; 
-    padding: 10px;
-    background-color: #001f36;
-    border-bottom: 2px solid #0e395f;
-}
-
 .logo {
     display: flex;
     justify-content: space-between;
@@ -56,7 +47,7 @@ nav {
 }
 
 .lien:hover {
-    color: #f0c03d; 
+    color: #8138f8; 
 }
 
 a:focus {
@@ -77,19 +68,21 @@ a:focus {
     display: flex;
     align-items: center;
     justify-content: center;
-    height: 100vh; 
+    min-height: 100vh; /* Remplacer height par min-height */
     padding: 20px;
     gap: 100px; 
 }
 
 .text1 {
+    color: #D7D7D9;
     max-width: 50%;
     text-align: justify;
     margin-left: 100px;
 }
 
 .text1 h2 {
-    color: #f0c03d;
+    font-family: DejaVu Sans Mono, monospace;
+    color: #8138f8;
     font-size: 2rem; 
     margin-bottom: 20px;
 }
@@ -103,7 +96,7 @@ a:focus {
 .bouton {
     display: inline-block;
     padding: 10px 20px;
-    background-color: #f0c03d;
+    background-color: #8138f8;
     color: #022945;
     text-decoration: none;
     font-weight: bold;
@@ -111,7 +104,7 @@ a:focus {
 }
 
 .bouton:hover {
-    background-color: #d1a735;
+    background-color: #af87f0;
 }
 
 .photo {
@@ -130,24 +123,25 @@ a:focus {
     display: flex;
     justify-content: center;
     align-items: center;
-    height: 100vh; /* Prend la hauteur de la fenêtre */
+    min-height: 100vh; /* Remplacer height par min-height */
 }
+
 /* Portfolio Grid */
 .grid-container {
     display: grid;
-    grid-template-columns: repeat(4, 1fr); /* 4 colonnes sur grands écrans */
+    grid-template-columns: repeat(4, 1fr); 
     grid-template-rows: auto;
-    gap: 50px;  /* Espacement réduit pour une apparence plus compacte */
+    gap: 50px; 
     padding: 20px;
-    justify-items: center;  /* Centrer les éléments dans chaque cellule */
+    justify-items: center; 
     width: 80%;
-    margin: 0 auto;  /* Centrer le conteneur horizontalement */
+    margin: 0 auto; 
 }
 
 /* Styles supplémentaires pour les boîtes de portfolio */
 .box {
-    background-color: #B5D5F3;
-    color: #022945;
+    background-color: #595959;
+    color: #D7D7D9;
     padding: 20px;
     text-align: center;
     border-radius: 8px;
@@ -163,7 +157,6 @@ a:focus {
     height: 150px;
     display: block;
     margin-bottom: 20px;
-
 }
 
 .box:hover {
@@ -174,27 +167,27 @@ a:focus {
 .box-button {
     display: inline-block;
     padding: 10px 20px;
-    background-color: #f0c03d;
-    color: #022945;
+    background-color: #8138f8;
+    color: #D7D7D9;
     text-decoration: none;
     font-weight: bold;
     border-radius: 10px;
 }
 
 .box-button:hover {
-    background-color: #d1a735;
+    background-color: #af87f0;
 }
 
 /* About Me Section */
 .principal2 {
     display: flex;
-    flex-direction: row; /* Organise les éléments horizontalement */
-    align-items: center; /* Centre verticalement */
-    justify-content: space-between; /* Ajoute de l'espace entre les éléments */
-    height: 100vh; /* Remplit la hauteur de la fenêtre */
+    flex-direction: row; 
+    align-items: center; 
+    justify-content: space-between; 
+    min-height: 100vh; /* Remplacer height par min-height */
     padding: 30px;
     margin-top: 20px;
-    gap: 50px; /* Espacement entre le texte et l'image */
+    gap: 50px; 
     box-sizing: border-box;
 }
 
@@ -202,25 +195,25 @@ a:focus {
     margin-top: 40px;
     max-width: 50%;
     text-align: justify;
-    margin-left: 50px; /* Réduit la marge pour équilibrer */
+    margin-left: 50px; 
 }
 
 .principal2 .photo {
     flex: 1;
     display: flex;
-    justify-content: center; /* Centre horizontalement */
-    align-items: center; /* Centre verticalement */
+    justify-content: center; 
+    align-items: center; 
 }
 
 .principal2 .photo img {
-    max-width: 80%; /* Limite la taille de l'image */
+    max-width: 80%;
     height: auto;
     border-radius: 10px;
     box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2);
 }
 
 .text1 h2 {
-    color: #f0c03d;
+    color: #8138f8;
     font-size: 2rem; 
     margin-bottom: 20px;
 }
@@ -234,7 +227,7 @@ a:focus {
 .bouton {
     display: inline-block;
     padding: 10px 20px;
-    background-color: #f0c03d;
+    background-color: #8138f8;
     color: #022945;
     text-decoration: none;
     font-weight: bold;
@@ -242,7 +235,7 @@ a:focus {
 }
 
 .bouton:hover {
-    background-color: #d1a735;
+    background-color:#af87f0;
 }
 
 .photo {
@@ -268,7 +261,7 @@ a:focus {
 #skills h2 {
     font-size: 2rem;
     margin-bottom: 20px;
-    color: #f0c03d;
+    color: #8138f8;
 }
 
 .skill {
@@ -294,28 +287,28 @@ a:focus {
 
 .progress {
     height: 100%;
-    background: linear-gradient(to right, #f7e199, #ffd900);
+    background: linear-gradient(to right, #ccb5f1, #8138f8);
     border-radius: 25px;
-    width: 0; /* La largeur sera définie via inline-style dans HTML */
+    width: 0; 
     transition: width 0.5s ease-in-out;
 }
 
-/* Ajout d'une animation au chargement */
 .skill-bar:hover .progress {
-    background: linear-gradient(to right, #ffa600, #e0db96);
+    background: linear-gradient(to left, #000000, #b3b3b3);
 }
 
 /* Contact Section */
 .principal3 {
     display: flex;
-    flex-direction: column;/* Organise les éléments en colonne */
-    align-items: center;/* Centre horizontalement */
-    justify-content: center; /* Centre verticalement */
-    height: 100vh;/* La section remplit toute la hauteur de la fenêtre */
+    flex-direction: column;
+    align-items: center;
+    justify-content: center; 
+    min-height: 100vh; /* Remplacer height par min-height */
     padding: 20px;
-    gap: 30px; /* Espacement entre les éléments */
+    gap: 30px; 
     box-sizing: border-box;
 }
+
 .container {
     width: 80%;
     max-width: 800px;
@@ -323,7 +316,6 @@ a:focus {
     text-align: center;
 }
 
-/* Titre de la section */
 h1 {
     font-size: 2.5rem;
     color: #fff;
@@ -331,7 +323,10 @@ h1 {
     font-family: 'Roboto', sans-serif;
 }
 
-/* Formulaire */
+h2 {
+    color: #8138f8;
+}
+
 form {
     padding: 30px;
     text-align: left;
@@ -362,13 +357,13 @@ textarea {
 input[type="text"]:focus,
 input[type="email"]:focus,
 textarea:focus {
-    border-color: #f0c03d;
+    border-color: #8138f8;
     outline: none;
 }
 
 /* Bouton d'envoi */
 button {
-    background-color: #f0c03d;
+    background-color: #8138f8;
     color: 022945;
     padding: 10px 20px;
     border: none;
@@ -380,9 +375,8 @@ button {
 }
 
 button:hover {
-    background-color: #d1a735;
+    background-color: #ccb5f1;
 }
-
 
 /* Footer */
 footer {
@@ -390,15 +384,83 @@ footer {
     justify-content: space-between; 
     align-items: center; 
     padding: 20px;
-    background-color: #001f36; 
+    background-color: #8138f8; 
     width: 100%;
-    bottom: 0;
-    left: 0;
-    position: static;
+    position: relative; /* Changer position: static à relative */
 }
 
 .footer {
     color: white;
     text-align: center;
     font-size: 14px;
+}
+
+/* Media Queries */
+/* Pour les écrans plus petits (moins de 768px) */
+@media (max-width: 768px) {
+    .principal, .principal2, .principal3 {
+        flex-direction: column; /* Passage en colonne pour mieux s'adapter */
+        align-items: center;
+    }
+
+    .text1 {
+        margin-left: 0;
+        max-width: 100%; /* Adapter la largeur au parent */
+        text-align: center;
+    }
+
+    .photo img {
+        max-width: 80%; /* Adapter la taille de l'image */
+    }
+
+    .grid-container {
+        grid-template-columns: 1fr; /* Une seule colonne pour les petits écrans */
+        gap: 20px;
+    }
+
+    /* Ajustement des boutons pour les petits écrans */
+    .bouton, .box-button {
+        width: 100%;
+        padding: 12px 20px;
+        font-size: 1rem;
+    }
+
+    /* Ajustement de la taille de la police */
+    h1, h2 {
+        font-size: 1.8rem;
+    }
+
+    .lien, .lien-actuel {
+        font-size: 20px;
+    }
+
+
+    
+}
+
+/* Pour les très petits écrans (moins de 480px) */
+@media (max-width: 480px) {
+    .logo h1 {
+        font-size: 18px;
+    }
+
+    .principal, .principal2, .principal3 {
+        padding: 10px;
+    }
+
+    .text1 p, .text1 h2, .box {
+        font-size: 1rem;
+    }
+
+    .photo img {
+        max-width: 90%;
+    }
+
+    .box {
+        max-width: 200px; /* Limiter la taille des boîtes dans le portfolio */
+    }
+
+    .grid-container {
+        grid-template-columns: 1fr; /* Une seule colonne */
+    }
 }
