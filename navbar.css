@@ -21,7 +21,7 @@ header {
     color: whitesmoke;
 }
 
-header h1 span {
+header{
     font-style: italic;
     color: #ccc;
 }
