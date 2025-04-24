@@ -16,12 +16,12 @@ header {
 }
 
 /* Logo */
-.logo {
+.logo h1 {
     font-size: 15px;
-    color: #fff;
+    color: whitesmoke;
 }
 
-header{
+header h1 span {
     font-style: italic;
     color: #ccc;
 }
@@ -34,6 +34,8 @@ nav {
 }
 
 .lien {
+    padding-top: 20px;
+    padding-bottom: 20px;
     font-size: 25px;
     color: #fff;
     cursor: pointer;
